@@ -75,7 +75,6 @@ class ViewRenderer extends BaseViewRenderer
 	 */
 	public $twig;
 
-
 	public function init()
 	{
 		$this->twig = new \Twig_Environment(null, array_merge([
